@@ -5,6 +5,33 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* utilities */
+.section-container {
+  width: 100%;
+  background-color: #111;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-content {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-bottom: 1.5px solid #fff;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+}
 /* Nav Bar */
 
 .navbar-container {
@@ -90,4 +117,22 @@
   padding-bottom: 8px;
   padding-left: 8px;
   padding-right: 8px;
+}
+
+/* About section */
+
+.about-me-content {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.about-me-content img {
+  width: 320px;
+  height: 320px;
+  margin-right: 50px;
+}
+.about-me-content p {
+  color: #fff;
+  line-height: 2rem;
 }
