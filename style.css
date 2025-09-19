@@ -136,3 +136,37 @@
   color: #fff;
   line-height: 2rem;
 }
+
+/* HABILIDADES */
+
+.skills-content {
+  margin-top: 108px;
+  display: flex;
+  justify-content: space-between;
+}
+.skills-content .skill-item {
+  background-color: #202020;
+  padding: 50px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills-content .skill-item span {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.skills-content .skill-item p {
+  color: #fff;
+  opacity: 75%;
+}
+
+.skills-content .skill-item:nth-child(2) {
+  margin-left: 50px;
+  margin-right: 50px;
+}
