@@ -170,3 +170,51 @@
   margin-left: 50px;
   margin-right: 50px;
 }
+
+/* PROJETO */
+
+.project-content {
+  margin-top: 118px;
+}
+
+.project-content .project-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.project-content .project-item:nth-child(2),
+.project-content .project-item:nth-child(4) {
+  justify-content: flex-end;
+  text-align: right;
+}
+.project-content .project-item:nth-child(2) > img,
+.project-content .project-item:nth-child(4) > img {
+  order: 2;
+}
+.project-content .project-item:nth-child(2) > .project-item-text,
+.project-content .project-item:nth-child(4) > .project-item-text {
+  order: 1;
+  margin-right: 60px;
+}
+.project-content .project-item > img {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.project-content .project-item .project-item-text {
+  margin-left: 60px;
+  max-width: 600px;
+}
+.project-content .project-item .project-item-text h2 {
+  color: #fff;
+  font-size: 2, 25rem;
+  font-weight: 500;
+}
+.project-content .project-item .project-item-text p {
+  color: #fff;
+  opacity: 75%;
+  margin-top: 15px;
+  line-height: 29px;
+}
